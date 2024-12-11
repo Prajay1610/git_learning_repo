@@ -1,0 +1,96 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Page-1" id="MCB8jCCRs1KvoWK-dvHy">
+    <mxGraphModel dx="1842" dy="1643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="llMJNqNaXuQ-_9gjWiXQ-1" value="3eeb9 blob object&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;console.log(&quot;Hello git&quot;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="561" y="220" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="llMJNqNaXuQ-_9gjWiXQ-2" value="378b93f==&amp;gt;commit object&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;tree f111c&lt;/div&gt;&lt;div&gt;author Prajay &amp;lt;prajaypc16@gmail.com&amp;gt; 1733916807 +0530&lt;/div&gt;&lt;div&gt;committer Prajay &amp;lt;prajaypc16@gmail.com&amp;gt; 1733916807 +0530&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;first commit&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="21" y="180" width="260" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="llMJNqNaXuQ-_9gjWiXQ-3" value="created when i said git add ." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="595" y="388" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="llMJNqNaXuQ-_9gjWiXQ-4" value="f111c==&amp;gt;tree object&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;100644 blob 3eeb9&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;prog1.js&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="310" y="220" width="215" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="llMJNqNaXuQ-_9gjWiXQ-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="llMJNqNaXuQ-_9gjWiXQ-2" target="llMJNqNaXuQ-_9gjWiXQ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="390" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="llMJNqNaXuQ-_9gjWiXQ-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="llMJNqNaXuQ-_9gjWiXQ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="340" as="sourcePoint" />
+            <mxPoint x="560" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="llMJNqNaXuQ-_9gjWiXQ-11" value="TREE OBJECT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="335" y="388" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="llMJNqNaXuQ-_9gjWiXQ-12" value="COMMIT OBJECT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="378" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="llMJNqNaXuQ-_9gjWiXQ-13" value="749247 blob object&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;console.log(&quot;Hello git&quot;)&lt;/div&gt;&lt;div&gt;console.log(&quot;added for second commit)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="561" y="-80" width="270" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="llMJNqNaXuQ-_9gjWiXQ-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="llMJNqNaXuQ-_9gjWiXQ-15" target="llMJNqNaXuQ-_9gjWiXQ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="llMJNqNaXuQ-_9gjWiXQ-15" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;a568761&lt;/span&gt;==&amp;gt;commit object&lt;div&gt;&lt;div&gt;tree e7dee&lt;/div&gt;&lt;div&gt;parent 378b93f&lt;/div&gt;&lt;div&gt;author Prajay &amp;lt;prajaypc16@gmail.com&amp;gt; 1733917910 +0530&lt;/div&gt;&lt;div&gt;committer Prajay &amp;lt;prajaypc16@gmail.com&amp;gt; 1733917910 +0530&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="30" y="-80" width="260" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="llMJNqNaXuQ-_9gjWiXQ-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.342;entryY=0.105;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="llMJNqNaXuQ-_9gjWiXQ-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="110" as="sourcePoint" />
+            <mxPoint x="170" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="llMJNqNaXuQ-_9gjWiXQ-17" value="e7dee==&amp;gt;tree object&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;56856 blob 749247&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;prog1.js&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-65" width="215" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="llMJNqNaXuQ-_9gjWiXQ-19" style="edgeStyle=none;shape=arrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.07;entryY=0.529;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="llMJNqNaXuQ-_9gjWiXQ-17" target="llMJNqNaXuQ-_9gjWiXQ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="llMJNqNaXuQ-_9gjWiXQ-20" value="&#xa;&lt;span class=&quot;s1&quot;&gt;console.log(&#39;program1&#39;)&lt;/span&gt;&#xa;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="540" y="-230" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="llMJNqNaXuQ-_9gjWiXQ-21" value="tree&amp;nbsp;&lt;b&gt;e06a2a12&lt;/b&gt;&lt;br&gt;parent&amp;nbsp;&lt;b&gt;6336580&lt;/b&gt;&lt;br&gt;author&lt;br&gt;committer&lt;br&gt;message" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0;align=left;fontSize=15;verticalAlign=top;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="-310" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="llMJNqNaXuQ-_9gjWiXQ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="llMJNqNaXuQ-_9gjWiXQ-24" target="llMJNqNaXuQ-_9gjWiXQ-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="llMJNqNaXuQ-_9gjWiXQ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="llMJNqNaXuQ-_9gjWiXQ-24" target="llMJNqNaXuQ-_9gjWiXQ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="llMJNqNaXuQ-_9gjWiXQ-24" value="100644 blob&amp;nbsp;&lt;b&gt;c643c0d2&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;program1.js&lt;/span&gt;&lt;br&gt;100644 blob&amp;nbsp;&lt;b&gt;65d32bd&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;program2.js&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=0;align=left;fontSize=15;verticalAlign=top;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="210" y="-310" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="llMJNqNaXuQ-_9gjWiXQ-25" value="console.log(&#39;program2&#39;)&lt;br&gt;&lt;span style=&quot;font-variant-ligatures: no-common-ligatures;&quot; class=&quot;s1&quot;&gt;console.log(&#39;program2&#39;)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="540" y="-410" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="llMJNqNaXuQ-_9gjWiXQ-26" value="THIS HAPPENS WHEN IN A SINGLE COMMIT WE HAVE TWO FILES MODIFIED" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-560" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="llMJNqNaXuQ-_9gjWiXQ-27" value="SO FOR EACH MODIFIED FILE A SEPERATE BLOB OBJECT IS CREATED" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-490" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="llMJNqNaXuQ-_9gjWiXQ-28" style="edgeStyle=none;shape=arrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.834;exitY=0.993;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="llMJNqNaXuQ-_9gjWiXQ-27" target="llMJNqNaXuQ-_9gjWiXQ-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="llMJNqNaXuQ-_9gjWiXQ-29" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="llMJNqNaXuQ-_9gjWiXQ-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="434" y="-470" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
